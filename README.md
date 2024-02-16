@@ -63,9 +63,6 @@ This function comes from the code of [10].  The inputs are a partition and a cla
 
       murnNaka[partition_,class_]
 
-\begin{verbatim}
-    murnNaka[partition_,class_]
-\end{verbatim}
 The output is the character of the elements in "class" of the irrep of the symmetric group labelled by "partition".  For example:
 
 > In[4]:= murnNaka[\{3,1\},\{1,1,1,1\}]
