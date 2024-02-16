@@ -101,8 +101,10 @@ This functions outputs the dimension of the $U(d)$ labelled by "ppartition":
     udDimension[ppartition_, d_].
 
 Thus, for the partition $(5,4,2,1,1,1)$, we have
-> In[7]:= udDimension[\{5,4,2,1,1,1\},d]
+
+> In[7]:= udDimension[\{5,4,2,1,1,1\},d] 
 > Out[7]:=  $\frac{(-5+d) (-4+d) (-3+d) (-2+d) (-1+d)^{2}{d}^{2} (1+d)^{2} (2+d)^{2} (3+d) (4+d)}{1382400}$
+>
 > In[8]:= udDimension[\{5,4,2,1,1,1\},8]
 > Out[8]:   $873180$
 
