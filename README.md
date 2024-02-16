@@ -204,13 +204,14 @@ This work was supported by [ACFAS](https://www.acfas.ca/) through their Programm
 
 Please cite as: 
 
+```
 @software{deGuiseWeingit,
   author = {Hubert de Guise},
-  title = {{weingarten_package}: A Mathematica package for unitary Weingarten functions,
-  url = {[http://github.com/](https://github.com/hdeguise/Weingarten_calculus/edit/main/README.md)},
-  version = {0.3.13},
+  title = {{weingarten_package: A Mathematica package for unitary Weingarten functions}},
+  url = {https://github.com/hdeguise/Weingarten_calculus},
   year = {2024},
 }
+```
 
 ## Bibliography
 
