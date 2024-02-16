@@ -3,12 +3,13 @@
 There is a multiplicity of applications requiring the computation of averages of various functions over the unitary groups in dimension $d$ or the behaviour of such functions in the limit of large $d$ [1-4].  The computation of this type of integral is considerably simplified using the so-called *Weingarten functions*, a nomenclature introduced in Ref.[5].
 
 Weingarten functions depend only on a class of symmetric group $S_p$ and on the dimension $d$ of the unitaries that are averaged.  A convenient closed form expression has been given in Ref. [5]:
+
 $$
-    \int U_{i_1j_1}\ldots U_{i_pj_p}
-    U^*_{i^\prime_1j^\prime_1}\ldots U^*_{i^\prime_p,j^\prime_p}\,dU
-    =\sum_{\sigma,\tau\in S_p}\text{Wg}([\sigma\tau^{-1}];d)\, ,\tag{1} 
-    $$
-    $$
+\int U_{i_1j_1}\ldots U_{i_pj_p} U^*_{i^\prime_1j^\prime_1}\ldots U^*_{i^\prime_p,j^\prime_p}\,dU
+=\sum_{\sigma,\tau\in S_p}\text{Wg}([\sigma\tau^{-1}];d)\, ,\tag{1} 
+$$
+
+$$
     \text{Wg}(\sigma\tau^{-1};d)=\frac{1}{(p!)^2}
     \sum_{\lambda} \frac{\chi^\lambda(\mathbf{1})^2 
     \chi^\lambda([\sigma\tau^{-1}])}{s_{\lambda,d}}  \tag{2}
