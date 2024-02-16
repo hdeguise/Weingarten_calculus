@@ -202,6 +202,16 @@ $S_5$
 
 This work was supported by [ACFAS](https://www.acfas.ca/) through their Programme de coopération en recherche dans la francophonie canadienne.  I would like to  thank  Dr. Nicolás Quesada and his group for their hospitality during two visits at École Polytechnique in Montréal and for testing the package, and David Amaro-Alcala for checking the source code of the $\beta$-version of the package and for helpful comments.
 
+Please cite as: 
+
+@software{deGuiseWeingit,
+  author = {Hubert de Guise},
+  title = {{weingarten_package}: A Mathematica package for unitary Weingarten functions,
+  url = {[http://github.com/](https://github.com/hdeguise/Weingarten_calculus/edit/main/README.md)},
+  version = {0.3.13},
+  year = {2024},
+}
+
 ## Bibliography
 
 1. P A Mello. “Averages on the unitary group and applications to the problem of disordered conductors”. In: Journal of Physics A: Mathematical and General 23.18 (1990), p. 4061.
