@@ -5,7 +5,7 @@ There is a multiplicity of applications requiring the computation of averages of
 Weingarten functions depend only on a class of symmetric group $S_p$ and on the dimension $d$ of the unitaries that are averaged.  A convenient closed form expression has been given in Ref. [5]:
 
 $$
-\int U_{i_1j_1}\ldots U_{i_pj_p} U^*_{i^\prime_1j^\prime_1}\ldots U^*_{i^\prime_p,j^\prime_p}\, dU=\sum_{\sigma,\tau\in S_p}\text{Wg}(\[\sigma\tau^{-1}\];d) \tag{1} 
+\int U_{i_1j_1}\ldots U_{i_pj_p} U^*_{i^\prime_1j^\prime_1}\ldots U^*_{i^\prime_p,j^\prime_p}\, dU
 $$
 
 $$
