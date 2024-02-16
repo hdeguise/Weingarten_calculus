@@ -34,6 +34,7 @@ and returns the RHS of Eq. (2).  Classes are partitions inside curly brackets.
 Thus for instance: 
 
 >  In[1]:= cWg[\{3,1\},d]
+> 
 >  Out[1]:= $\frac{-3+2 d^2}{(-3+d) (-2+d) (-1+d) {d}^{2}(1+d) (2+d) (3+d)}$
 >  
 is the Weingarten function for the integration of $U(d)$ functions, for the class $\{3,1\}$. 
@@ -46,12 +47,14 @@ The function  eWg has slightly different inputs:
 Mathematica constructs elements of $S_p$ in the form of cycles, such as Cycles[\{\{2,3,4\}\}].  However, it is not possible to full determine from the information in Cycles if this is an element of $S_4, S_5$ *etc* hence the need to supply the additional parameter $p$ to indicate this is an element in $S_p$.  The output is of course the same as  cWg  if the order $p$ and an element in the class are given as inputs:
 
 > In[2]:= eWg[Cycles[\{\{2,3,4\}\}],4,d]
+> 
 > Out[2]:= $\frac{-3+2d^2}{(d-3)(d-2)(d-1)d^2 (1+d) (2+d) (3+d)}$
 
 
 The dimension $d$ of the unitaries can be passed directly to either functions:
 
 > In[3]:= cWg[Cycles[\{\{3,1\}\}],6]
+> 
 > Out[3]:= $\frac{23}{362880}$
 
 
@@ -66,6 +69,7 @@ This function comes from the code of [10].  The inputs are a partition and a cla
 The output is the character of the elements in "class" of the irrep of the symmetric group labelled by "partition".  For example:
 
 > In[4]:= murnNaka[\{3,1\},\{1,1,1,1\}]
+> 
 > Out[4]:= $3$
 
 which is also the dimension of irrep $(3,1)$.
@@ -77,7 +81,9 @@ This function inputs an element in $S_p$ and returns the class of this element:
     getClass[p_,cycles_]
 
 For example:
+
 > In[5]:= getClass[4,Cycles[\{\{1,2,3\}\}]]
+> 
 > Out[5]:= $\{3,1\}$
 
 ### snDimension
@@ -102,13 +108,16 @@ This functions outputs the dimension of the $U(d)$ labelled by "ppartition":
 
 Thus, for the partition $(5,4,2,1,1,1)$, we have
 
-> In[7]:= udDimension[\{5,4,2,1,1,1\},d] 
+> In[7]:= udDimension[\{5,4,2,1,1,1\},d]
+> 
 > Out[7]:=  $\frac{(-5+d) (-4+d) (-3+d) (-2+d) (-1+d)^{2}{d}^{2} (1+d)^{2} (2+d)^{2} (3+d) (4+d)}{1382400}$
 >
 > In[8]:= udDimension[\{5,4,2,1,1,1\},8]
+> 
 > Out[8]:   $873180$
 
 The dimension $d$ of the unitary must be greater than or equal to the number of parts in the partition, or alternatively the $d$ must be greater than or equal to  the number of rows in the Young diagram associated with the partition, else there is no irrep for this partition and the function returns $0$:
+
 > In[9]:=  udDimension[\{5,4,2,1,1,1\},4]
 > Out[9]:   $0$
 > 
@@ -120,7 +129,9 @@ This functions outputs the number of elements in the class of $S_p$ labelled by 
      gClass[partition_]
 
 Thus, for the partition $(5,1,1)$ of $S_7$, we have
+
 > In[10]:=  gClass[\{5,1,1\},4]
+> 
 > Out[10]:   $504$
 
 
