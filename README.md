@@ -8,15 +8,19 @@ $$
 \int U_{i_1j_1}\ldots U_{i_pj_p} \left(U_{i^\prime_1j^\prime_1}\ldots U_{i^\prime_p,j^\prime_p}\right)^{\ast} dU   =\sum_{\sigma,\tau\in S_p}\text{Wg}([\sigma\tau^{-1}];d)\, ,\tag{1} 
 $$
 
+with
+
 $$
     \text{Wg}(\sigma\tau^{-1};d)=\frac{1}{(p!)^2}
     \sum_{\lambda} \frac{\chi^\lambda(\mathbf{1})^2 
     \chi^\lambda([\sigma\tau^{-1}])}{s_{\lambda,d}}  \tag{2}
 $$
 where $U$ is a Haar-random $d\times d$ unitary matrix, $dU$ is the Haar measure over $U(d)$, and  $[\sigma]$ is the class of element $\sigma$.  The sum in Eq. (1) is a sum over all $\sigma\in S_p$ and all the $\tau\in S_p$ so that
+
 $$   (i^\prime_{\sigma(1)},\ldots,i^\prime_{\sigma(p)})=(i_1,\ldots,i_p)\, ,\\
 (j^\prime_{\tau(1)},\ldots,j^\prime_{\tau(p)})=(j_1,\ldots,j_p)\, ,
 $$
+
 with the integral $0$ is the $i',i$, $j'$ or $j$ strings have different lengths.  In other words, the integral on the left of Eq. (1) is a sum of Weingarten functions.  In the expression for $\text{Wg}$, $\chi^\lambda(\mathbf{1})$ is the dimension of irrep $\lambda$ of $S_p$, $\chi^\lambda(\sigma)$ is the character of element $\sigma$ in the irrep $\lambda$, $s_{\lambda,d}$ is the dimension of irrep $\lambda$ of $U(d)$, and the sum over $\lambda$ is a sum over all partitions of $p$.  Alternate derivations and properties, including generalizations to the orthogonal and the symplectic groups, can be found in Refs. [6-9].
 
 This note describes the workings of a Mathematica code to quickly evaluate Weingarten functions as given in Eq. (2).  The code is built on an implementation of the Murnaghan-Nakayama rule for the characters irreducible representations of the symmetric group $S_p$, provided to me  by Dr. Justin Kulp [10].  The dimensionality factor $s_{\lambda,d}$ can be computed in the usual way using the hook-rule [11].  To speed up calculations it was found useful to write a dedicated function to evaluate the dimension of the irrep $\lambda$ of $S_p$, also using the hook-rule.
