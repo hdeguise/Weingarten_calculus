@@ -148,8 +148,7 @@ Thus, for the partition $(5,1,1)$ of $S_7$, we have
 
 
 
- $S_3$: integrals of the type $\displaystyle\int dU U_{i\alpha}U_{j\beta}U_{k\eta} 
-U^*_{m\mu} U^*_{\ell \nu}U^*_{p\kappa}$.
+ $S_3$: integrals of the type $\int dU U_{i \alpha}U_{j \beta}U_{k \eta} U^*_{m \mu} U^*_{\ell \nu}U^*_{p\kappa}$.
 
 |Class  |Wg  |
 |--|--|
