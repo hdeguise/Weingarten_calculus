@@ -11,7 +11,7 @@ $$
 with just checking
 
 $$
-\text{Wg}(\sigma\tau^{-1};d)=\frac{1}{(p!)^2} \sum_{\lambda} \frac{\chi^\lambda(1)^2 \chi^\lambda([\sigma\tau^{-1}])}{s_{\lambda,d}}\, ,\tag{2}
+\text{Wg}(\sigma\tau^{-1};d)=\frac{1}{(p!)^2} \sum_{\lambda} \frac{\chi^\lambda(\mathbf{1})^2 \chi^\lambda([\sigma\tau^{-1}])}{s_{\lambda,d}}\, ,\tag{2}
 $$
 where $U$ is a Haar-random $d\times d$ unitary matrix, $dU$ is the Haar measure over $U(d)$, and  $[\sigma]$ is the class of element $\sigma$.  The sum in Eq. (1) is a sum over all $\sigma\in S_p$ and all the $\tau\in S_p$ so that
 
@@ -138,7 +138,7 @@ Thus, for the partition $(5,1,1)$ of $S_7$, we have
 
 ## Tables of Weingarten functions for $n\le 6$
 
- $S_2$: integrals of the type $\displaystyle\int dU U_{i\alpha}U_{j\beta} U^*_{k\eta} U^*_{\ell \nu}\, .$
+ $S_2$: integrals of the type $\int dU U_{i\alpha}U_{j\beta} U^*_{k\eta} U^*_{\ell \nu}\, .$
 
 
 |Class| Wg  |
