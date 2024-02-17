@@ -138,7 +138,7 @@ Thus, for the partition $(5,1,1)$ of $S_7$, we have
 
 ## Tables of Weingarten functions for $n\le 6$
 
- $S_2$: integrals of the type $\int dU U_{i\alpha}U_{j\beta} U^*_{k\eta} U^*_{\ell \nu}\, .$
+ $S_2$: integrals of the type $\int dU U_{i\alpha} U_{j\beta} U_{k \eta}^* U_{\ell \nu}^*.$
 
 
 |Class| Wg  |
