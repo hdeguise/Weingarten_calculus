@@ -5,7 +5,7 @@ There is a multiplicity of applications requiring the computation of averages of
 Weingarten functions depend only on a class of symmetric group $S_p$ and on the dimension $d$ of the unitaries that are averaged.  A convenient closed form expression has been given in Ref. [5]:
 
 $$
-\int U_{i_1j_1}\ldots U_{i_pj_p} \left(U_{i^\prime_1j^\prime_1}\ldots U_{i^\prime_p,j^\prime_p}\right)^{\ast} dU   =\sum_{\sigma,\tau\in S_p}\text{Wg}([\sigma\tau^{-1}];d)\, ,\tag{1} 
+\int U_{i_1j_1}\ldots U_{i_pj_p} \left(U_{i^\prime_1j^\prime_1}\ldots U_{i^\prime_p,j^\prime_p}\right)^{\ast} dU   =\sum_{\sigma,\tau\in S_p}\text{Wg}([\sigma\tau^{-1}];d)\, \tag{1} 
 $$
 
 with
@@ -16,8 +16,8 @@ $$
 
 where $U$ is a Haar-random $d\times d$ unitary matrix, $dU$ is the Haar measure over $U(d)$, and  $[\sigma]$ is the class of element $\sigma$.  The sum in Eq. (1) is a sum over all $\sigma\in S_p$ and all the $\tau\in S_p$ so that
 
-$$   (i^\prime_{\sigma(1)},\ldots,i^\prime_{\sigma(p)})=(i_1,\ldots,i_p)\, ,\\
-(j^\prime_{\tau(1)},\ldots,j^\prime_{\tau(p)})=(j_1,\ldots,j_p)\, ,
+$$   (i^\prime_{\sigma(1)},\ldots,i^\prime_{\sigma(p)})=(i_1,\ldots,i_p)\, \\
+(j^\prime_{\tau(1)},\ldots,j^\prime_{\tau(p)})=(j_1,\ldots,j_p)\, 
 $$
 
 with the integral $0$ is the $i',i$, $j'$ or $j$ strings have different lengths.  In other words, the integral on the left of Eq. (1) is a sum of Weingarten functions.  In the expression for $\text{Wg}$, $\chi^\lambda(\mathbf{1})$ is the dimension of irrep $\lambda$ of $S_p$, $\chi^\lambda(\sigma)$ is the character of element $\sigma$ in the irrep $\lambda$, $s_{\lambda,d}$ is the dimension of irrep $\lambda$ of $U(d)$, and the sum over $\lambda$ is a sum over all partitions of $p$.  Alternate derivations and properties, including generalizations to the orthogonal and the symplectic groups, can be found in Refs. [6-9].
