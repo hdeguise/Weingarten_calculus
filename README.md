@@ -211,7 +211,9 @@ Please cite as:
 @software{deGuiseWeingit,
   author = {Hubert de Guise},
   title = {{weingarten_package: A Mathematica package for unitary Weingarten functions}},
-  url = {https://github.com/hdeguise/Weingarten_calculus},
+    publisher={GitHub},
+  journal={GitHub repository},
+howpublished = {\url{https://github.com/hdeguise/Weingarten_calculus}}
   year = {2024},
 }
 ```
